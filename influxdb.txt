@@ -1,5 +1,11 @@
 influx
+
+DROP DATABASE africube
+CREATE DATABASE africube
+show databases
 USE africube
+SHOW MEASUREMENTS
+show databases
 
 
 INSERT APRS,Igate=zr6aic,Command=rx,Mode=0 Sola-V1=0,Solar-V2=0,Solar-V3=0,Solar-V4=0,Battery-V1=0,Battery-V2=0,Temp-C1=0,Temp-C2=0,Reset-Count=0,Time=0

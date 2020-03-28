@@ -1,0 +1,16 @@
+Includes optional support for:  gpsd
+
+Reading config file sdr.conf
+Audio input device for receive: stdin  (channel 0)
+Audio out device for transmit: null  (channel 0)
+Channel 0: 1200 baud, AFSK 1200 & 2200 Hz, E+, 24000 sample rate.
+Note: PTT not configured for channel 0. (Ignore this if using VOX.)
+Ready to accept AGW client application 0 on port 8000 ...
+Use -p command line option to enable KISS pseudo terminal.
+Ready to accept KISS client application on port 8001 ...
+
+Now connected to IGate server noam.aprs2.net (75.155.112.155)
+Check server status here http://75.155.112.155:14501
+
+[ig] # aprsc 2.1.2-gc90ee9c
+[ig] # logresp ZR6AIC verified, server T2EDM

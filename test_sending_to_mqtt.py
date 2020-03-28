@@ -8,9 +8,11 @@ from subprocess import Popen, PIPE
 import paho.mqtt.client as mqtt
 import datetime
 
+username_pw_set(username="africube",password="AE@m0squtt0")
 client = mqtt.Client("RTL-APR-VHF")
-client.connect("mqtt.giga.co.za")
+client.connect("iot.giga.co.za")
 client.loop_start()
+
 
 # General guidance from
 # https://stackoverflow.com/questions/2804543/read-subprocess-stdout-line-by-line

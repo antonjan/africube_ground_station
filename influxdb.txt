@@ -9,6 +9,8 @@ show databases
 
 
 INSERT APRS,Igate=zr6aic,Command=rx,Mode=0 Sola-V1=0,Solar-V2=0,Solar-V3=0,Solar-V4=0,Battery-V1=0,Battery-V2=0,Temp-C1=0,Temp-C2=0,Reset-Count=0,Time=0
+
+SELECT * FROM APRS
 time                           Battery-V1 Battery-V2 Command Igate  Mode Reset-Count Sola-V1 Solar-V2 Solar-V3 Solar-V4 Temp-C1 Temp-C2 Time
 ----                           ---------- ---------- ------- -----  ---- ----------- ------- -------- -------- -------- ------- ------- ----
 2020-03-28T20:19:38.385451878Z 0          0          rx      zr6aic 0    0           0       0        0        0        0       0       0
